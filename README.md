@@ -38,16 +38,16 @@ Fine-tuning BERT and T5 on rubric-annotated data led to the most promising resul
 
  ### Checkpoints (RMSE Metric)
 Bert Finetuned on Training Data
--      "epoch": 50.0,
--      "grad_norm": 1.4541561603546143,
--      "learning_rate": 1.5000000000000002e-08,
--      "loss": 0.0133,
--      "step": 2000
--      "eval_loss": 0.4391864240169525,
--      "eval_runtime": 0.273,
--      "eval_samples_per_second": 131.878,
--      "eval_steps_per_second": 18.316,
--      "step": 2000
+      "epoch": 50.0,
+      "grad_norm": 1.4541561603546143,
+      "learning_rate": 1.5000000000000002e-08,
+      "loss": 0.0133,
+      "step": 2000
+      "eval_loss": 0.4391864240169525,
+      "eval_runtime": 0.273,
+      "eval_samples_per_second": 131.878,
+      "eval_steps_per_second": 18.316,
+      "step": 2000
 
  ### Additional Handling
 
