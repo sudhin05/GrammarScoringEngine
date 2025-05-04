@@ -1,3 +1,13 @@
+### Github Repo (https://github.com/sudhin05/test-shl) - Entire code was modularized and Run on localhost.
+
+### Github Repo Structure:
+- DataTesting: Contains All Audio Sample analysis and Tests
+- Transcription: Contains Scripts for various attempted transcriptions
+- Logs: Contains transcription results and datatesting results
+- Experiments: Contains various text grammar reasoning method implementation
+- Inference: Contains scripts for Infer time run for various experiments
+- Checkpoints: Contains Model Checkpoints on Training Data.
+
 ## Project Documentation: Grammar Scoring Engine
 
 This project focused on building a grammar scoring engine for audio samples using a combination of speech-to-text transcription and fine-tuned language models.
@@ -25,6 +35,19 @@ MPNet was evaluated using a cosine similarity-based strategy between transcripti
 LanguageTool-Python was used to extract grammar error features and attempted as part of an ensemble approach. However, noisy transcriptions often led to misleading grammar assessments, making the integration counterproductive.
 
 Fine-tuning BERT and T5 on rubric-annotated data led to the most promising results. The final evaluation on the held-out test set achieved a score of 0.827 (on 30% of the test set).
+
+ ### Checkpoints (RMSE Metric)
+Bert Finetuned on Training Data
+-      "epoch": 50.0,
+-      "grad_norm": 1.4541561603546143,
+-      "learning_rate": 1.5000000000000002e-08,
+-      "loss": 0.0133,
+-      "step": 2000
+-      "eval_loss": 0.4391864240169525,
+-      "eval_runtime": 0.273,
+-      "eval_samples_per_second": 131.878,
+-      "eval_steps_per_second": 18.316,
+-      "step": 2000
 
  ### Additional Handling
 
