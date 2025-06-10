@@ -1,5 +1,3 @@
-### Github Repo (https://github.com/sudhin05/test-shl) - Entire code was modularized and Run on localhost.
-
 ### Github Repo Structure:
 - DataTesting: Contains All Audio Sample analysis and Tests
 - Transcription: Contains Scripts for various attempted transcriptions
